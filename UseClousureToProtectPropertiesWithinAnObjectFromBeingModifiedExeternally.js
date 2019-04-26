@@ -29,3 +29,11 @@ In JavaScript, a function always has access to the context in which it was creat
 Change how weight is declared in the Bird function so it is a private variable. 
 Then, create a method getWeight that returns the value of weight.
 */
+function Bird() {
+  let weight = 15;
+  
+  this.getWeight = function (){
+    return weight;
+  };
+  
+}
